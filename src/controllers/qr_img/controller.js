@@ -1,8 +1,11 @@
 import qr from 'qr-image';
 
 const createQR = (url) => {
-  const newUrl = url.replaceAll('^', '/');
-  const QR = qr.image(newUrl, { type: 'png' });
+  const urlExplited = url.split('^');
+  const urlJoined = urlExplited.join('/');
+
+  const QR = qr.image(urlJoined, { type: 'png' });
+
   return QR;
 };
 
