@@ -4,7 +4,7 @@ Pequeño generador de QR hecho con NodeJS/Express.
 
 <br>
 
-## Para lanzar el servidor utilizar, realiza los siguientes pasos.
+## Para lanzar el servidor, realiza los siguientes pasos.
 
 ### 1. Instalar las dependencias de node:
 
